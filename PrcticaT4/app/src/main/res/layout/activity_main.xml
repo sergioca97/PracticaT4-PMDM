@@ -1,57 +1,87 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:orientation="vertical"
     tools:context=".MainActivity">
 
-    <Button
-        android:id="@+id/btnDesplazar"
-        android:layout_width="117dp"
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="358dp"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/imgAndroid"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/android" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="@color/colorPrimary"
-        android:text=" Desplazando "
-        android:textStyle="bold"
-        tools:layout_editor_absoluteX="35dp"
-        tools:layout_editor_absoluteY="436dp" />
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="20dp"
+        android:orientation="vertical">
 
-    <Button
-        android:id="@+id/btnPrimos"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:background="@color/colorPrimary"
-        android:text="Números"
-        android:textStyle="bold"
-        tools:layout_editor_absoluteX="50dp"
-        tools:layout_editor_absoluteY="365dp" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal">
 
-    <Button
-        android:id="@+id/btnSeleccionar"
-        android:layout_width="126dp"
-        android:layout_height="wrap_content"
-        android:background="@color/colorPrimary"
-        android:text="Seleccionando"
-        android:textStyle="bold"
-        tools:layout_editor_absoluteX="226dp"
-        tools:layout_editor_absoluteY="436dp" />
+            <Button
+                android:id="@+id/btnPrimos"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="70dp"
+                android:background="@color/colorPrimary"
+                android:drawableRight="@android:drawable/ic_input_add"
+                android:text="@string/txtNumeros"
+                android:textStyle="bold" />
 
-    <Button
-        android:id="@+id/btnAciertos"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:background="@color/colorPrimary"
-        android:text="Juego"
-        android:textStyle="bold"
-        tools:layout_editor_absoluteX="244dp"
-        tools:layout_editor_absoluteY="365dp" />
+            <Button
+                android:id="@+id/btnAciertos"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@color/colorPrimary"
+                android:drawableLeft="@android:drawable/ic_menu_mapmode"
+                android:text="@string/juego"
+                android:textStyle="bold" />
 
-    <ImageView
-        android:id="@+id/imgAndroid"
-        android:layout_width="wrap_content"
-        android:layout_height="365dp"
-        app:srcCompat="@drawable/android"
-        tools:layout_editor_absoluteX="0dp"
-        tools:layout_editor_absoluteY="0dp" />
+        </LinearLayout>
 
-</android.support.constraint.ConstraintLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btnDesplazar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="50dp"
+                android:background="@color/colorPrimary"
+                android:drawableRight="@android:drawable/ic_media_next"
+                android:text="@string/desplazando"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/btnSeleccionar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@color/colorPrimary"
+                android:drawableLeft="@android:drawable/checkbox_on_background"
+                android:drawablePadding="10dp"
+                android:text="@string/seleccionando"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>
