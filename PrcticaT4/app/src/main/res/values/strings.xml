@@ -1,3 +1,32 @@
 <resources>
     <string name="app_name">PrácticaT4</string>
+    <string name="numeros">Números Primos</string>
+    <string name="juego">Juego</string>
+    <string name="desplazando">Desplazando</string>
+    <string name="seleccionando">Seleccionando</string>
+    <string name="txtNumeroEntero">Introduze un número entero:</string>
+    <string name="txtCalcular">Calcular</string>
+    <string name="txtNumeros">Números</string>
+    <string name="radbtnEspaña">España</string>
+    <string name="radbtnFrancia">Francia</string>
+    <string name="radbtnItalia">Italia</string>
+    <string name="radbtnVenezuela">Venezuela</string>
+    <string name="radbtnChina">China</string>
+    <string name="radbtnJapon">Japón</string>
+    <string name="radbtnMexico">Mexico</string>
+    <string name="radbtnBrasil">Brasil</string>
+    <string name="radbtnArgentina">Argentina</string>
+    <string name="radbtnAlemania">Alemania</string>
+
+    <string name="radbtnMadrid">Madrid</string>
+    <string name="radbtnParis">París</string>
+    <string name="radbtnRoma">Roma</string>
+    <string name="radbtnCaracas">Caracas</string>
+    <string name="radbtnPekin">Pekin</string>
+    <string name="radbtnTokio">Tokio</string>
+    <string name="radbtnCiudadMexico">Ciudad de Mexico</string>
+    <string name="radbtnBrasilia">Brasilia</string>
+    <string name="radbtnBuenosAires">Buenos Aires</string>
+    <string name="radbtnBerlin">Berlín</string>
+
 </resources>
