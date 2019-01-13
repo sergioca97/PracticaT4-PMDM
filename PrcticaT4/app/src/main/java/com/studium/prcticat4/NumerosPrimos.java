@@ -22,7 +22,7 @@ public class NumerosPrimos extends AppCompatActivity {
         btnCalcular = findViewById(R.id.btnCalcular);
         edtNumeroEntero = findViewById(R.id.edtNumeroEntero);
         txtResultadoPrimos = findViewById(R.id.txtResultadoPrimos);
-        this.setTitle(R.string.numeros);
+        this.setTitle(R.string.titleNumeros);
 
         btnCalcular.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -33,7 +33,6 @@ public class NumerosPrimos extends AppCompatActivity {
                 for(int i = 2; i < num; i++) {
                     if (num % i == 0) {
                         prime = false;
-                        break;
                     }
                 }
                 if (prime)
