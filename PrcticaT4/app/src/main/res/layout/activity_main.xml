@@ -9,13 +9,15 @@
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="358dp"
+        android:layout_height="wrap_content"
         android:orientation="horizontal">
 
         <ImageView
             android:id="@+id/imgAndroid"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_margin="40dp"
+            android:adjustViewBounds="true"
             app:srcCompat="@drawable/android" />
     </LinearLayout>
 
@@ -23,7 +25,6 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginStart="20dp"
-        android:layout_marginTop="30dp"
         android:layout_marginEnd="20dp"
         android:orientation="vertical">
 
@@ -37,19 +38,19 @@
                 android:id="@+id/btnPrimos"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginEnd="70dp"
                 android:background="@color/colorPrimary"
                 android:drawableRight="@android:drawable/ic_input_add"
-                android:text="@string/txtNumeros"
+                android:text="@string/btnNumeros"
                 android:textStyle="bold" />
 
             <Button
                 android:id="@+id/btnAciertos"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_marginLeft="90dp"
                 android:background="@color/colorPrimary"
                 android:drawableLeft="@android:drawable/ic_menu_mapmode"
-                android:text="@string/juego"
+                android:text="@string/btnJuego"
                 android:textStyle="bold" />
 
         </LinearLayout>
@@ -68,7 +69,7 @@
                 android:layout_marginEnd="50dp"
                 android:background="@color/colorPrimary"
                 android:drawableRight="@android:drawable/ic_media_next"
-                android:text="@string/desplazando"
+                android:text="@string/btnDesplazando"
                 android:textStyle="bold" />
 
             <Button
@@ -77,8 +78,8 @@
                 android:layout_height="wrap_content"
                 android:background="@color/colorPrimary"
                 android:drawableLeft="@android:drawable/checkbox_on_background"
-                android:drawablePadding="10dp"
-                android:text="@string/seleccionando"
+                android:drawablePadding="5dp"
+                android:text="@string/btnSeleccionando"
                 android:textStyle="bold" />
 
         </LinearLayout>
