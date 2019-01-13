@@ -54,5 +54,13 @@ public class MainActivity extends AppCompatActivity
 
             }
         });
+        btnSeleccionar.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v)
+            {
+                Intent intent = new Intent(Principal, SeleccionandoImagenes.class);
+                startActivity(intent);
+            }
+        });
     }
 }
