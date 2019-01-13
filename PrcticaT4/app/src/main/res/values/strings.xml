@@ -1,12 +1,15 @@
 <resources>
     <string name="app_name">PrácticaT4</string>
-    <string name="numeros">Números Primos</string>
-    <string name="juego">Juego</string>
-    <string name="desplazando">Desplazando</string>
-    <string name="seleccionando">Seleccionando</string>
+    <string name="titleNumeros">Números Primos</string>
+    <string name="titleJuego">Juego De Aciertos</string>
+    <string name="titleDesplazando">Desplazando Imágenes</string>
+    <string name="titleSeleccionando">Seleccionando Imágenes</string>
     <string name="txtNumeroEntero">Introduze un número entero:</string>
     <string name="txtCalcular">Calcular</string>
-    <string name="txtNumeros">Números</string>
+    <string name="btnNumeros">Números</string>
+    <string name="btnJuego">Juego</string>
+    <string name="btnDesplazando">Desplazando</string>
+    <string name="btnSeleccionando">Seleccionando</string>
     <string name="radbtnEspaña">España</string>
     <string name="radbtnFrancia">Francia</string>
     <string name="radbtnItalia">Italia</string>
@@ -28,5 +31,14 @@
     <string name="radbtnBrasilia">Brasilia</string>
     <string name="radbtnBuenosAires">Buenos Aires</string>
     <string name="radbtnBerlin">Berlín</string>
+    <string name="resultadoPaises">País </string>
+    <string name="resultadoCapitales">Capital </string>
+    <string name="btnVerificar">Verificar</string>
+
+    <string name="btnRosa">Rosa</string>
+    <string name="btnClavel">Clavel</string>
+    <string name="btnJazmin">Jazmin</string>
+    <string name="btnTulipan">Tulipan</string>
+
 
 </resources>
