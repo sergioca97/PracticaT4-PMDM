@@ -18,9 +18,17 @@
         </activity>
         <activity
             android:name=".NumerosPrimos"
-            android:label="@string/numeros" />
-        <activity android:name=".JuegoDeAciertos" />
-        <activity android:name=".DesplazandoImagenes"></activity>
+            android:label="@string/titleNumeros" />
+        <activity
+            android:name=".JuegoDeAciertos"
+            android:label="@string/titleJuego"/>
+        <activity
+            android:name=".DesplazandoImagenes"
+            android:label="@string/titleDesplazando"/>
+        <activity
+            android:name=".SeleccionandoImagenes"
+            android:label="@string/titleSeleccionando">
+        </activity>
     </application>
 
 </manifest>
