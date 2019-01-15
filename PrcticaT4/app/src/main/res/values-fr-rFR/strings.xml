@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">PrácticaT4</string>
+    <string name="titleNumeros">Nombres Premiers</string>
+    <string name="titleJuego">Frapper le jeu</string>
+    <string name="titleDesplazando">Défilement des images</string>
+    <string name="titleSeleccionando">Sélection des images</string>
+    <string name="txtNumeroEntero">Entrez un nombre entier:</string>
+    <string name="txtCalcular">Calculer</string>
+    <string name="btnNumeros">Numéros</string>
+    <string name="btnJuego">Jeu</string>
+    <string name="btnDesplazando">Défilement</string>
+    <string name="btnSeleccionando">En sélectionnant</string>
+    <string name="radbtnEspaña">Espagne</string>
+    <string name="radbtnFrancia">France</string>
+    <string name="radbtnItalia">Italie</string>
+    <string name="radbtnVenezuela">Venezuela</string>
+    <string name="radbtnChina">Chine</string>
+    <string name="radbtnJapon">Le japon</string>
+    <string name="radbtnMexico">Mexique</string>
+    <string name="radbtnBrasil">Le brésil</string>
+    <string name="radbtnArgentina">Argentine</string>
+    <string name="radbtnAlemania">Allemagne</string>
+    <string name="radbtnRoma">Rome</string>
+    <string name="radbtnPekin">Pékin</string>
+    <string name="radbtnTokio">Tokyo</string>
+    <string name="radbtnCiudadMexico">Mexico</string>
+    <string name="radbtnCaracas">Caracas</string>
+    <string name="radbtnParis">París</string>
+    <string name="radbtnMadrid">Madrid</string>
+    <string name="resultadoPaises">" Pays"</string>
+    <string name="radbtnBerlin">Berlin</string>
+    <string name="radbtnBuenosAires">Buenos Aires</string>
+    <string name="radbtnBrasilia">Brasilia</string>
+    <string name="resultadoCapitales">Capitale</string>
+    <string name="btnVerificar">Vérifier</string>
+    <string name="btnClavel">Carnation</string>
+    <string name="btnRosa">Rosa</string>
+    <string name="btnJazmin">Jazmin</string>
+    <string name="btnTulipan">Tulipan</string>
+</resources>

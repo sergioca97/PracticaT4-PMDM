@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">PrácticaT4</string>
+    <string name="titleNumeros">Números Primos</string>
+    <string name="titleJuego">" Batendo jogo"</string>
+    <string name="titleDesplazando">Rolagem de Imagens</string>
+    <string name="titleSeleccionando">" Selecionando Imagens"</string>
+    <string name="txtNumeroEntero">" Digite um número inteiro:"</string>
+    <string name="txtCalcular">Calcular</string>
+    <string name="btnNumeros">Números</string>
+    <string name="btnJuego">Jogo</string>
+    <string name="btnDesplazando">Rolagem</string>
+    <string name="btnSeleccionando">Selecionando</string>
+    <string name="radbtnEspaña">Espanha</string>
+    <string name="radbtnFrancia">França</string>
+    <string name="radbtnItalia">Itália</string>
+    <string name="radbtnVenezuela">Venezuela</string>
+    <string name="radbtnChina">China</string>
+    <string name="radbtnJapon">Japão</string>
+    <string name="radbtnMexico">México</string>
+    <string name="radbtnBrasil">Brasil</string>
+    <string name="radbtnArgentina">Argentina</string>
+    <string name="radbtnAlemania">Alemanha</string>
+    <string name="radbtnMadrid">Madri</string>
+    <string name="radbtnParis">Paris</string>
+    <string name="radbtnRoma">Roma</string>
+    <string name="radbtnCaracas">Caracas</string>
+    <string name="radbtnPekin">Pekin</string>
+    <string name="radbtnTokio">Tóquio</string>
+    <string name="radbtnCiudadMexico">Cidade do México</string>
+    <string name="radbtnBrasilia">Brasília</string>
+    <string name="radbtnBuenosAires">" bons ares"</string>
+    <string name="radbtnBerlin">Berlim</string>
+    <string name="resultadoPaises">Country</string>
+    <string name="resultadoCapitales">Capital</string>
+    <string name="btnVerificar">Verificar</string>
+    <string name="btnRosa">Rosa</string>
+    <string name="btnClavel">Cravo</string>
+    <string name="btnJazmin">Jazmin</string>
+    <string name="btnTulipan">Tulipan</string>
+</resources>
