@@ -8,4 +8,104 @@
         <item name="colorAccent">@color/colorAccent</item>
     </style>
 
+    <style name="botones" parent="AppTheme">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">@color/colorPrimary</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="btnCalcular" parent="AppTheme">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:text">@string/txtCalcular</item>
+    </style>
+
+    <style name="btnPrimos" parent="botones">
+    <item name="android:drawableRight">@android:drawable/ic_input_add</item>
+    <item name="android:text">@string/btnNumeros</item>
+</style>
+
+    <style name="btnAciertos" parent="botones">
+        <item name="android:layout_marginLeft">90dp</item>
+        <item name="android:drawableLeft">@android:drawable/ic_menu_mapmode</item>
+        <item name="android:text">@string/btnJuego</item>
+    </style>
+
+    <style name="btnAciertosland" parent="btnAciertos">
+        <item name="android:layout_marginLeft">0dp</item>
+    </style>
+
+    <style name="btnDesplazando" parent="botones">
+        <item name="android:layout_marginEnd">70dp</item>
+        <item name="android:drawableLeft">@android:drawable/ic_media_next</item>
+        <item name="android:text">@string/btnDesplazando</item>
+    </style>
+
+    <style name="btnDesplazandoland" parent="btnDesplazando">
+        <item name="android:layout_marginEnd">0dp</item>
+    </style>
+
+    <style name="btnSeleccionando" parent="botones">
+        <item name="android:drawableLeft">@android:drawable/checkbox_on_background</item>
+        <item name="android:drawablePadding">5dp</item>
+        <item name="android:text">@string/btnSeleccionando</item>
+    </style>
+
+    <style name="btnSeleccionandoland" parent="btnSeleccionando">
+        <item name="android:drawablePadding">0dp</item>
+    </style>
+
+    <style name="btnVerificar" parent="botones">
+        <item name="android:background">@color/colorNaranja</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:gravity">center</item>
+        <item name="android:text">@string/btnVerificar</item>
+    </style>
+
+    <style name="btnRosa" parent="botones">
+        <item name="android:layout_marginEnd">50dp</item>
+        <item name="android:onClick">@string/btnRosa</item>
+        <item name="android:text">@string/btnRosa</item>
+    </style>
+
+    <style name="btnRosaLand" parent="btnRosa">
+        <item name="android:layout_marginEnd">20dp</item>
+       <item name="android:layout_marginStart">20dp</item>
+    </style>
+
+    <style name="btnClavel" parent="botones">
+        <item name="android:onClick">@string/btnClavel</item>
+        <item name="android:text">@string/btnClavel</item>
+    </style>
+
+    <style name="btnClavelLand" parent="btnClavel">
+        <item name="android:layout_marginEnd">20dp</item>
+        <item name="android:layout_marginStart">20dp</item>
+    </style>
+
+    <style name="btnJazmin" parent="botones">
+        <item name="android:layout_marginEnd">50dp</item>
+        <item name="android:onClick">@string/btnJazmin</item>
+        <item name="android:text">@string/btnJazmin</item>
+    </style>
+
+    <style name="btnJazminLand" parent="btnJazmin">
+        <item name="android:layout_marginEnd">20dp</item>
+        <item name="android:layout_marginStart">20dp</item>
+    </style>
+
+    <style name="btnTulipan" parent="botones">
+        <item name="android:drawablePadding">10dp</item>
+        <item name="android:onClick">@string/btnTulipan</item>
+        <item name="android:text">@string/btnTulipan</item>
+    </style>
+
+    <style name="btnTulipanLand" parent="btnTulipan">
+        <item name="android:layout_marginEnd">20dp</item>
+        <item name="android:layout_marginStart">20dp</item>
+    </style>
+
+
 </resources>
