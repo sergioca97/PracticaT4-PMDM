@@ -1,10 +1,10 @@
 <resources>
-    <string name="app_name">PrácticaT4</string>
+    <string name="app_name" translatable="false">PrácticaT4</string>
     <string name="titleNumeros">Números Primos</string>
     <string name="titleJuego">Juego De Aciertos</string>
     <string name="titleDesplazando">Desplazando Imágenes</string>
     <string name="titleSeleccionando">Seleccionando Imágenes</string>
-    <string name="txtNumeroEntero">Introduze un número entero:</string>
+    <string name="txtNumeroEntero">Introduce un número entero:</string>
     <string name="txtCalcular">Calcular</string>
     <string name="btnNumeros">Números</string>
     <string name="btnJuego">Juego</string>
