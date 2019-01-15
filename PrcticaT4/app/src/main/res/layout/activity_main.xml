@@ -34,24 +34,11 @@
             android:gravity="center"
             android:orientation="horizontal">
 
-            <Button
-                android:id="@+id/btnPrimos"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:background="@color/colorPrimary"
-                android:drawableRight="@android:drawable/ic_input_add"
-                android:text="@string/btnNumeros"
-                android:textStyle="bold" />
+            <Button style="@style/btnPrimos"
+                android:id="@+id/btnPrimos"/>
 
-            <Button
-                android:id="@+id/btnAciertos"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginLeft="90dp"
-                android:background="@color/colorPrimary"
-                android:drawableLeft="@android:drawable/ic_menu_mapmode"
-                android:text="@string/btnJuego"
-                android:textStyle="bold" />
+            <Button style="@style/btnAciertos"
+                android:id="@+id/btnAciertos"/>
 
         </LinearLayout>
 
@@ -62,25 +49,11 @@
             android:gravity="center"
             android:orientation="horizontal">
 
-            <Button
-                android:id="@+id/btnDesplazar"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginEnd="50dp"
-                android:background="@color/colorPrimary"
-                android:drawableRight="@android:drawable/ic_media_next"
-                android:text="@string/btnDesplazando"
-                android:textStyle="bold" />
+            <Button style="@style/btnDesplazando"
+                android:id="@+id/btnDesplazar"/>
 
-            <Button
-                android:id="@+id/btnSeleccionar"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:background="@color/colorPrimary"
-                android:drawableLeft="@android:drawable/checkbox_on_background"
-                android:drawablePadding="5dp"
-                android:text="@string/btnSeleccionando"
-                android:textStyle="bold" />
+            <Button style="@style/btnSeleccionando"
+                android:id="@+id/btnSeleccionar"/>
 
         </LinearLayout>
     </LinearLayout>
