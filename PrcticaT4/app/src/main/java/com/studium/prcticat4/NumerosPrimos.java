@@ -26,19 +26,23 @@ public class NumerosPrimos extends AppCompatActivity {
 
         btnCalcular.setOnClickListener(new View.OnClickListener() {
             @Override
-            public void onClick(View v)
-            {
-                int num = Integer.parseInt(edtNumeroEntero.getText().toString());
-                boolean prime = true;
-                for(int i = 2; i < num; i++) {
-                    if (num % i == 0) {
-                        prime = false;
+            public void onClick(View v) {
+
+                if (edtNumeroEntero.getText().toString().isEmpty()) {
+                    txtResultadoPrimos.setText("Error introduzca un número.");
+                } else {
+                    int num = Integer.parseInt(edtNumeroEntero.getText().toString());
+                    boolean prime = true;
+                    for (int i = 2; i < num; i++) {
+                        if (num % i == 0) {
+                            prime = false;
+                        }
                     }
+                    if (prime)
+                        txtResultadoPrimos.setText("Este número es primo");
+                    else
+                        txtResultadoPrimos.setText("Este número NO es primo");
                 }
-                if (prime)
-                    txtResultadoPrimos.setText("Este número es primo");
-                else
-                    txtResultadoPrimos.setText("Este número NO es primo");
             }
         });
     }
