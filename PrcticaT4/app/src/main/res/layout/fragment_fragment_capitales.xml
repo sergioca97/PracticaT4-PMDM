@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:background="@android:color/holo_blue_light"
+    tools:context=".FragmentCapitales">
+
+    <RadioGroup
+        android:id="@+id/grpCapitales"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RadioButton
+            android:id="@+id/radbtnMadrid"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_weight="1"
+            android:text="@string/radbtnMadrid"
+            android:textStyle="bold" />
+
+        <RadioButton
+            android:id="@+id/radbtnParis"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="100dp"
+            android:layout_weight="1"
+            android:text="@string/radbtnParis"
+            android:textStyle="bold" />
+
+        <RadioButton
+            android:id="@+id/radbtnRoma"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="100dp"
+            android:layout_weight="1"
+            android:text="@string/radbtnRoma"
+            android:textStyle="bold" />
+
+        <RadioButton
+            android:id="@+id/radbtnCaracas"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="100dp"
+            android:layout_weight="1"
+            android:text="@string/radbtnCaracas"
+            android:textStyle="bold" />
+
+        <RadioButton
+            android:id="@+id/radbtnPekin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="100dp"
+            android:layout_weight="1"
+            android:text="@string/radbtnPekin"
+            android:textStyle="bold" />
+
+        <RadioButton
+            android:id="@+id/radbtnTokio"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="100dp"
+            android:layout_weight="1"
+            android:text="@string/radbtnTokio"
+            android:textStyle="bold" />
+
+        <RadioButton
+            android:id="@+id/radbtnCiudadMexico"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="100dp"
+            android:layout_weight="1"
+            android:text="@string/radbtnCiudadMexico"
+            android:textStyle="bold" />
+
+        <RadioButton
+            android:id="@+id/radbtnBrasilia"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="100dp"
+            android:layout_weight="1"
+            android:text="@string/radbtnBrasilia"
+            android:textStyle="bold" />
+
+        <RadioButton
+            android:id="@+id/radbtnBuenosAires"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="100dp"
+            android:layout_weight="1"
+            android:text="@string/radbtnBuenosAires"
+            android:textStyle="bold" />
+
+        <RadioButton
+            android:id="@+id/radbtnBerlin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="100dp"
+            android:layout_weight="1"
+            android:text="@string/radbtnBerlin"
+            android:textStyle="bold" />
+    </RadioGroup>
+</LinearLayout>

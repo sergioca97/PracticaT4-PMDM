@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:background="@android:color/holo_green_light"
+    tools:context=".FragmentPaises">
+
+    <RadioGroup
+        android:id="@+id/grpPaises"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1">
+
+        <RadioButton
+            android:id="@+id/radbtnEspaña"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_weight="1"
+            android:text="@string/radbtnEspaña"
+            android:textStyle="bold" />
+
+        <RadioButton
+            android:id="@+id/radbtnFrancia"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="100dp"
+            android:layout_weight="1"
+            android:text="@string/radbtnFrancia"
+            android:textStyle="bold" />
+
+        <RadioButton
+            android:id="@+id/radbtnItalia"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="100dp"
+            android:layout_weight="1"
+            android:text="@string/radbtnItalia"
+            android:textStyle="bold" />
+
+        <RadioButton
+            android:id="@+id/radbtnVenezuela"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="100dp"
+            android:layout_weight="1"
+            android:text="@string/radbtnVenezuela"
+            android:textStyle="bold" />
+
+        <RadioButton
+            android:id="@+id/radbtnChina"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="100dp"
+            android:layout_weight="1"
+            android:text="@string/radbtnChina"
+            android:textStyle="bold" />
+
+        <RadioButton
+            android:id="@+id/radbtnJapon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="100dp"
+            android:layout_weight="1"
+            android:text="@string/radbtnJapon"
+            android:textStyle="bold" />
+
+        <RadioButton
+            android:id="@+id/radbtnMexico"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="100dp"
+            android:layout_weight="1"
+            android:text="@string/radbtnMexico"
+            android:textStyle="bold" />
+
+        <RadioButton
+            android:id="@+id/radbtnBrasil"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="100dp"
+            android:layout_weight="1"
+            android:text="@string/radbtnBrasil"
+            android:textStyle="bold" />
+
+        <RadioButton
+            android:id="@+id/radbtnArgentina"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="100dp"
+            android:layout_weight="1"
+            android:text="@string/radbtnArgentina"
+            android:textStyle="bold" />
+
+        <RadioButton
+            android:id="@+id/radbtnAlemania"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="100dp"
+            android:layout_weight="1"
+            android:text="@string/radbtnAlemania"
+            android:textStyle="bold" />
+    </RadioGroup>
+
+</LinearLayout>
