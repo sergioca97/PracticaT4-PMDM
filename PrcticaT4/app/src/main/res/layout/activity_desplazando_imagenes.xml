@@ -8,15 +8,15 @@
     android:orientation="horizontal"
     tools:context=".DesplazandoImagenes">
 
-    <ScrollView
+    <HorizontalScrollView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_weight="1">
 
         <LinearLayout
-            android:layout_width="match_parent"
+            android:layout_width="wrap_content"
             android:layout_height="match_parent"
-            android:orientation="vertical">
+            android:orientation="horizontal">
 
             <fragment
                 android:id="@+id/fragment3"
@@ -26,16 +26,23 @@
                 android:layout_weight="1"
                 tools:layout="@layout/fragment_fragment_perro" />
 
-            <fragment
-                android:id="@+id/fragment4"
-                android:name="com.studium.prcticat4.FragmentoGato"
-                android:layout_width="wrap_content"
+            <LinearLayout
+                android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
-                tools:layout="@layout/fragment_fragmento_gato" />
+                android:orientation="horizontal">
+
+                <fragment
+                    android:id="@+id/fragment4"
+                    android:name="com.studium.prcticat4.FragmentoGato"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    tools:layout="@layout/fragment_fragmento_gato" />
+            </LinearLayout>
 
         </LinearLayout>
-    </ScrollView>
+    </HorizontalScrollView>
 
 
 </LinearLayout>

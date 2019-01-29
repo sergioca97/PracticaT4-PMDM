@@ -16,7 +16,7 @@
         android:layout_weight="1"
         android:ems="10"
         android:hint="@string/hintHorizontal"
-        android:inputType="textPersonName" />
+        android:inputType="number" />
 
     <EditText
         android:id="@+id/edtVertical"
@@ -25,7 +25,7 @@
         android:layout_weight="1"
         android:ems="10"
         android:hint="@string/hintVertical"
-        android:inputType="textPersonName" />
+        android:inputType="number" />
 
     <LinearLayout
         android:layout_width="wrap_content"
